@@ -19,10 +19,6 @@ pyarrow==21.0.0
 matplotlib==3.10.5
 seaborn
 
-# Jupyter notebook support
-jupyter
-ipywidgets
-
 # Utility packages
 requests
 tqdm
