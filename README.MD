@@ -16,6 +16,7 @@ This repository contains our winning submission for the **humbleBeeHackathon NYC
 ```
 humbleBeeHackathon/
 ├── README.MD                    # Project documentation
+├── Report.pdf                    # Project insight report
 ├── requirements.txt             # Python dependencies
 ├── submission.ipynb            # Main notebook with all algorithms and testing
 ├── submission.csv              # Generated predictions (May 1 - Aug 1, 2025)
@@ -46,8 +47,11 @@ humbleBeeHackathon/
 git clone https://github.com/Valiev-Koyiljon/humbleBeeHackathon.git
 cd humbleBeeHackathon
 ```
+```bash
+python -m venv .venv
+source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+```
 
-### Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
