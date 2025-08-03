@@ -83,7 +83,6 @@ Our `submission.ipynb` contains extensive testing of multiple forecasting approa
 The **Neural Network architecture outperformed all traditional algorithms** with:
 - Lowest RMSE on validation set
 - Superior handling of seasonal patterns
-- Best anomaly detection capabilities
 - Robust performance across all NYC boroughs
 
 ## Data Preparation & Feature Engineering
@@ -161,7 +160,7 @@ Top predictive features identified:
 - **RMSE**: Optimized for forecast accuracy
 - **MAPE**: Mean absolute percentage error
 - **Anomaly Detection**: F1-score for spike/dip identification
-- **Real-time**: Dashboard response <2 seconds
+- **Real-time**: Dashboard response <5 seconds
 
 ## Dashboard Features
 
@@ -169,8 +168,6 @@ Top predictive features identified:
 
 - **Interactive NYC Map**: Real-time call density visualization
 - **Time Series Analysis**: Historical trends and forecasts
-- **Borough Comparisons**: Cross-borough performance metrics
-- **Anomaly Highlights**: Automated spike and dip detection
 - **Responsive Design**: Mobile-friendly for city officials
 
 ## Future Enhancements
@@ -179,13 +176,6 @@ Top predictive features identified:
 - **Traffic Data**: Transportation incidents correlation
 - **Economic Indicators**: Employment and housing market effects
 - **Real-time Updates**: Live model retraining capabilities
-
-## Key Insights
-1. **Neural networks excel** at capturing complex temporal patterns in 311 data
-2. **Monday spikes** consistently observed across all boroughs
-3. **Weather events** create 40-60% volume increases
-4. **Holiday patterns** show predictable 20-40% reductions
-5. **Manhattan and Brooklyn** drive highest baseline volumes
 
 ## Contact & Repository
 **Repository**: [humbleBeeHackathon](https://github.com/Valiev-Koyiljon/humbleBeeHackathon)  
