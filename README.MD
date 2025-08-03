@@ -141,10 +141,9 @@ Possible enhancements for future iterations:
 
 ### Neural Network (Best Performer)
 - **Architecture**: Multi-layer feedforward network
-- **Input Features**: 50+ engineered features
+- **Input Features**: 10+ engineered features
 - **Output**: Daily call volume predictions
-- **Optimization**: Adam optimizer with learning rate scheduling
-- **Regularization**: Dropout and batch normalization
+- **Optimization**: Adam optimizer
 
 ### Feature Importance
 Top predictive features identified:
@@ -156,8 +155,7 @@ Top predictive features identified:
 
 ## Performance Metrics
 - **RMSE**: Optimized for forecast accuracy
-- **MAPE**: Mean absolute percentage error
-- **Anomaly Detection**: F1-score for spike/dip identification
+- **MAPE**: Mean absolute percentage error for forecast accuracy
 - **Real-time**: Dashboard response <5 seconds
 
 ## Dashboard Features
