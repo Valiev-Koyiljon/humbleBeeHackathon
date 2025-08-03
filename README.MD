@@ -6,8 +6,6 @@ This repository contains our winning submission for the **humbleBeeHackathon NYC
 ## 🚀 Live Dashboard
 **[NYC 311 Dashboard · Streamlit](https://humblebee.streamlit.app/)**
 
-![Dashboard Preview](image/dashboard.jpg)
-
 ## Key Features
 - **Advanced ML Algorithms**: Comprehensive testing of multiple forecasting models
 - **Neural Network Architecture**: Best-performing model that outperformed all traditional algorithms
