@@ -36,19 +36,19 @@ class SimpleNN(nn.Module):
     def forward(self, x):
         return self.model(x)
 
-def load_data(train_path, test_path, target_column="total_calls"):
-    train_df = pd.read_csv(train_path, parse_dates=['created_date']).dropna()
-    test_df = pd.read_csv(test_path, parse_dates=['created_date']).dropna()
+# def load_data(train_path, test_path, target_column="total_calls"):
+#     train_df = pd.read_csv(train_path, parse_dates=['created_date']).dropna()
+#     test_df = pd.read_csv(test_path, parse_dates=['created_date']).dropna()
 
-    feature_cols = [c for c in train_df.columns if c not in [target_column, 'created_date']]
+#     feature_cols = [c for c in train_df.columns if c not in [target_column, 'created_date']]
 
-    X_train = train_df[feature_cols]
-    y_train = train_df[target_column]
+#     X_train = train_df[feature_cols]
+#     y_train = train_df[target_column]
 
-    X_test = test_df[feature_cols]
-    y_test = test_df[target_column]
+#     X_test = test_df[feature_cols]
+#     y_test = test_df[target_column]
 
-    return X_train, y_train, X_test, y_test
+#     return X_train, y_train, X_test, y_test
 
 def train_neural_net(train_path, test_path,  target_column="total_calls", normalize = False, epochs=200, batch_size=32, lr=0.001):
     # Load data
