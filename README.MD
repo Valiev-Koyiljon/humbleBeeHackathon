@@ -40,6 +40,9 @@ humbleBeeHackathon/
     └── utils.py              # Helper functions
 ```
 
+## Won 2nd place from Hackathon
+
+
 ## Installation & Setup
 
 ### Clone the Repository
